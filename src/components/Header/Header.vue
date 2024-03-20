@@ -13,13 +13,13 @@
                 <a class="nav-item">Relógios</a>
         </nav>
          <img class="Logo-img"
-            src='https://static.vecteezy.com/ti/vetor-gratis/p2/2734090-shopping-cart-icon-vector-design-gr%C3%A1tis-vetor.jpg'
+            src='https://images.creativemarket.com/0.1.0/ps/2172592/6250/6250/m1/fpnw/wm0/shoppingbag-.jpg?1485224896&s=a7fc9ae5e057ecff5a1927cd705a712e'
             alt="logo">
     </header>
 </template>
 
 
 
-<style src="src/components/Header.scss" lang="scss" scoped>
+<style src="src/components/Header/Header.scss" lang="scss" scoped>
 
 </style>

@@ -1,13 +1,13 @@
 
 <script setup>
-  import Header from './components/Header.vue';
+ import Cabecalho from './components/Header/Header.vue';
+ import Presentation from './components/Presentation/Presentation.vue';
+ 
 
 </script>
 
 <template>
-    <Header />
+    <Cabecalho />
+    <Presentation />
 </template>
 
-<style scoped>
-
-</style>

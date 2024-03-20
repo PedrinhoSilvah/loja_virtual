@@ -1,0 +1,101 @@
+.secao-apresentacao{
+    text-align: start;
+
+    .text-h1{
+        margin-left: 10%;
+        h1{
+            color: #808080;
+            font-size: 48px;
+    
+        }
+    
+    }
+    .text-h2{
+        margin-left: 10%;
+        h2{
+            color: 	#808080;
+            font-size: 28px;
+            margin-bottom: 40px;
+        }
+    
+    }
+  
+    .black{
+        color: black;
+    }
+
+    .container{
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        &-item{
+            text-align: center;
+            padding: 50px;
+            font-size: 14px;
+            font-weight: bold;
+            img{
+                width: 60px;
+                height: 80px;
+            }
+        }
+    }
+
+    .novidades{
+        display: grid;
+        grid-template-columns: 20% 20% 20%;
+        gap: 13%;
+        margin-left: 10%;
+        font-family: sans-serif;;
+        &-item{
+            width: 350px;
+            height: 450px;
+            border-radius: 10px;
+            cursor: pointer;
+
+            &:hover{
+                transition: all 1s;
+                transform: scale(1.1);
+            }
+
+            h3{
+                font-size: 28px;
+                padding-left: 20px;
+                margin-top: -1px;
+            }
+            
+
+            &-text{
+                font-size: 12px;
+                padding-left: 20px;
+                padding-top: 20px;
+            }
+
+            &-secondtext{
+                padding-left: 20px;
+                margin-top: -20px;
+                font-size: 17px;
+            }
+
+        }
+
+        .num1{
+            background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844');
+            background-size: contain;
+            color: white;
+        }
+
+        .num2{
+            background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-macbook-air-202402?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1707259289595');
+            background-size: contain;
+            color: black;
+            box-shadow: 2px 4px 12px #00000014
+            
+        }
+
+        .num3{
+            background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-s9-202309_GEO_BR?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1693501298681');
+            background-size: contain;
+            color: white;
+        }
+    }
+}

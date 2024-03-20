@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+    box-shadow:  0 0 5px #d3d3d3;
+    display: grid;
+    grid-template-columns: 90% 0%;
+    position: fixed;
+
+  .Logo-img {
+    animation: bounce 2s infinite;
+    margin: 10px;
+    width: 80px;
+
+    @media (max-width: 760px) {
+      width: 50px;
+    }
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    &-item {
+      font-family: sans-serif;
+      font-size: 20px;
+      padding: 20px;
+    }
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+  }
+
+  60% {
+    transform: translateY(-5px);
+  }
+}

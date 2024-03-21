@@ -33,9 +33,15 @@
             padding: 50px;
             font-size: 14px;
             font-weight: bold;
+            cursor: pointer;
             img{
                 width: 60px;
                 height: 80px;
+
+                &:hover{
+                    transition: all 1s;
+                    transform: scale(1.1);
+                }
             }
         }
     }
@@ -88,7 +94,7 @@
             background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-macbook-air-202402?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1707259289595');
             background-size: contain;
             color: black;
-            box-shadow: 2px 4px 12px #00000014
+            box-shadow: 2px 4px 12px #00000014;
             
         }
 
